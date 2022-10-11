@@ -5,6 +5,9 @@
     background-color: rgb(31, 226, 240);
     color: #111;
 }
+.nav-container{
+    margin-right: 40px;
+}
 .nav-container a{
     text-decoration: none;
     margin: 0 20px;
@@ -14,4 +17,6 @@
 }
 .logo{
     width: 180px;
+    margin-right: auto;
+    margin-left: 40px;
 }

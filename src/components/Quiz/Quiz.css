@@ -1,0 +1,14 @@
+.quiz-container{
+    margin: 0 auto;
+    border: 1px solid rebeccapurple;
+}
+.quiz-container .img-fluid{
+    width: 247px;
+    background-color: rgb(200, 231, 233);
+    padding: 10px;
+}
+.quiz-text{
+    display: flex;
+    justify-content: space-between;
+
+}

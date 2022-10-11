@@ -1,16 +1,19 @@
 import React from 'react';
-import './Home.css'
+import Quizes from '../Quizes/Quizes';
+import './Topics.css'
 
-const Home = () => {
+const Topics = () => {
+    
     return (
         <div>
             <div className='banner-container'>
             <p className='banner-text'>A comprehensive database of more than 31 computer programming quizzes online, test your knowledge with computer programming quiz questions.</p>
-            
-
+            </div>
+            <div>
+                <Quizes></Quizes>
             </div>
         </div>
     );
 };
 
-export default Home;
+export default Topics;
