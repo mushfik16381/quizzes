@@ -9,9 +9,10 @@ const Header = () => {
             <img className='logo' src={logo} alt="Logo" />
             
             <div className='nav-container'>
-            <Link to={"/"}>Home</Link>
+            <Link to={"/"}>Topics</Link>
             <Link to={"/statistics"}>Statistics</Link>
             <Link to={"/blog"}>Blog</Link>
+            <Link to={"/questions"}>Questions</Link>
             </div>
         </div>
     );
