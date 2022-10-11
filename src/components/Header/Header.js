@@ -12,7 +12,6 @@ const Header = () => {
             <Link to={"/"}>Topics</Link>
             <Link to={"/statistics"}>Statistics</Link>
             <Link to={"/blog"}>Blog</Link>
-            <Link to={"/questions"}>Questions</Link>
             </div>
         </div>
     );
