@@ -7,7 +7,7 @@
 .quizes-main{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 60px;
+    gap: 40px;
     margin: 0 40px;
     margin-bottom: 60px;
 

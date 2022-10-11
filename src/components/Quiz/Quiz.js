@@ -7,9 +7,9 @@ const Quiz = ({quiz}) => {
         <div className='quiz-container'>
             <img className='img-fluid' src={logo} alt="" />
             <div className='quiz-text'>
-                <h2>{name}</h2>
-                <h2>{total}</h2>
-                <button>Anggggg</button>
+                <p className='name'>{name}</p>
+                <p>Qus:{total}</p>
+                <button className='btn-quiz'>Let's Practice</button>
             </div>
         </div>
     );
