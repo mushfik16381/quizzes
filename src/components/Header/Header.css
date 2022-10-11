@@ -1,0 +1,17 @@
+.header-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(31, 226, 240);
+    color: #111;
+}
+.nav-container a{
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+}
+.logo{
+    width: 180px;
+}
