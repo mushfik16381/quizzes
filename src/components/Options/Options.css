@@ -1,0 +1,19 @@
+
+.option-container .mcq{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    border: 2px solid blueviolet;
+    padding: 10px;
+    border-radius: 10px;
+    color: #111;
+}
+.option-container .mcq p{
+    margin: 0;
+    padding-left: 10px;
+    line-height: 24px;
+}
+.ans{
+    font-size: 24px;
+    padding-top: 20px;
+}

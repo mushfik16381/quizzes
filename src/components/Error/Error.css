@@ -1,7 +1,29 @@
-.not-found {
+/* .not-found  {
     width: 100%;
     background-image: url(../../images/404.png);
     background-size: cover;
-    background-repeat:no-repeat; 
+    background-repeat:no-repeat;
     height: 100vh;
+} */
+.not-found{
+    padding-top: 120px;
+}
+.not-found h3{
+    font-size: 160px;
+    font-weight: 600;
+    color: blueviolet;
+}
+.not-found h5{
+    font-size: 50px;
+    color: brown;
+}
+
+@media (max-width: 575.98px){
+    .not-found {
+        padding-top: 60px;
+        width: 100%;
+        background-size: cover;
+
+    }
+    
 }

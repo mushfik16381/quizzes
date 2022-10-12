@@ -1,5 +1,5 @@
 .qus-container{
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
     border: 2px solid rebeccapurple;
     border-radius: 20px;
@@ -21,27 +21,17 @@
     top: 0;
     right: 0;
     color: blueviolet;
+    border: none;
+    background: none;
 }
 .ans-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
-.ans-container .mcq{
-    display: flex;
-    align-items: center;
-    text-align: left;
-    border: 2px solid blueviolet;
-    padding: 10px;
-    border-radius: 10px;
-    color: #111;
+.correct{
+    color: blueviolet;
 }
-.ans-container .mcq p{
-    margin: 0;
-    padding-left: 10px;
-    line-height: 24px;
-}
-
 @media (max-width: 575.98px){
     .ans-container{
         grid-template-columns: repeat(1, 1fr);
