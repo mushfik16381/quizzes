@@ -1,22 +1,52 @@
 .header-container{
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(31, 226, 240);
+    background-color: #ececec;
     color: #111;
+}
+.navbar{
+    padding: 0 !important;
 }
 .nav-container{
     margin-right: 40px;
 }
-.nav-container a{
+.navbar-nav a{
     text-decoration: none;
     margin: 0 20px;
     font-size: 18px;
-    font-weight: 500;
-    color: #000;
+    font-weight: 600;
+    color: rgb(0, 94, 201);
 }
 .logo{
     width: 180px;
     margin-right: auto;
     margin-left: 40px;
 }
+.navbar-nav a:hover{
+    color: rgb(171, 173, 0);
+}
+
+@media (max-width: 575.98px) { 
+    .logo{
+        width: 160px;
+        margin-left: 0;
+    }
+    .nav-container{
+        margin-right: 0;
+    }
+    .navbar-nav{
+        padding-bottom: 20px;
+    }
+    .banner-text {
+        width: 100%;
+        color: #fff;
+        font-size: 22px;
+        line-height: 26px;
+        text-align: left;
+        padding-left: 30px;
+        padding-right: 10px;
+        font-weight: 400;
+    }
+ }
