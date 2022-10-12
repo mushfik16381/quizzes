@@ -1,16 +1,17 @@
-import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Quiz.css'
 
+
 const Quiz = ({quiz}) => {
     const {logo, name, total, id} = quiz;
+    
     const navigate = useNavigate();
     const handaleNavigate = () => {
         navigate(`/questions/${id}`)
     }
 
     return (
-        <div className='quiz-container'>
+            <div className='quiz-container'>
             <img className='img-fluid' src={logo} alt="" />
             <div className='quiz-text'>
                 <p className='name'>{name}</p>
