@@ -1,6 +1,18 @@
 .statistics-container{
     margin-top: 40px;
 }
-.recharts-wrapper{
-    margin: 60px auto;
+
+.chart-container{
+    width: 500px;
+    height: 400;
+    margin: 30px auto;
+}
+
+@media (max-width: 575.98px){
+    .chart-container{
+        width: 90%;
+        margin: 0 auto;
+        height: 400;
+        margin: 0 auto;
+    }
 }
