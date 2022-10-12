@@ -1,8 +1,43 @@
 .qus-container{
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
+    border: 2px solid rebeccapurple;
+    border-radius: 20px;
+    margin: 30px auto;
+    padding: 20px;
+}
+.qus-container h3{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: blueviolet;
+}
+.qus-container .qus-eye{
+    position: relative;
+}
+.qus-container .icon-eye{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: blueviolet;
 }
 .ans-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.ans-container .mcq{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    border: 2px solid blueviolet;
+    padding: 10px;
+    border-radius: 10px;
+    color: #111;
+}
+.ans-container .mcq p{
+    margin: 0;
+    padding-left: 10px;
+    line-height: 24px;
 }
