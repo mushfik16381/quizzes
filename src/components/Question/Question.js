@@ -28,14 +28,8 @@ const Question = ({ques}) => {
                     <input type="radio" />
                     <label ><p>{ques.options[3]}</p></label>
                 </div>
-                
-                
-                
-                
             </div>
-            {/* <div>
             
-            </div> */}
         </div>
     );
 };
