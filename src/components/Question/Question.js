@@ -2,7 +2,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEye, faClose } from '@fortawesome/free-solid-svg-icons'
 import React, { useState } from 'react';
 import './Ouestion.css'
-import { useNavigate } from 'react-router-dom';
 import Options from '../Options/Options';
 
 const Question = ({ques}) => {
